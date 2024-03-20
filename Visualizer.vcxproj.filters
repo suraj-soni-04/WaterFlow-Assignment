@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>qrc;rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Translation Files">
+      <UniqueIdentifier>{639EADAA-A684-42e4-A9AD-28FC9BCB8F7C}</UniqueIdentifier>
+      <Extensions>ts</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="Visualizer.qrc">
+      <Filter>Resource Files</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="resources\Terrain.stl">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="README.md" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\Findpath.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\MathUtility.cpp" />
+    <ClCompile Include="src\OpenGLWindow.cpp" />
+    <ClCompile Include="src\Point3D.cpp" />
+    <ClCompile Include="src\Reader.cpp" />
+    <ClCompile Include="src\stdafx.cpp" />
+    <ClCompile Include="src\Triangle.cpp" />
+    <ClCompile Include="src\Triangulation.cpp" />
+    <ClCompile Include="src\Visualizer.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="headers\Findpath.h" />
+    <ClInclude Include="headers\MathUtility.h" />
+    <ClInclude Include="headers\Point3D.h" />
+    <ClInclude Include="headers\Reader.h" />
+    <ClInclude Include="headers\stdafx.h" />
+    <ClInclude Include="headers\Triangle.h" />
+    <ClInclude Include="headers\Triangulation.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="headers\OpenGLWindow.h" />
+    <QtMoc Include="headers\Visualizer.h" />
+  </ItemGroup>
+</Project>
