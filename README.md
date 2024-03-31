@@ -30,6 +30,16 @@ Run the main program, which will execute the path-finding algorithm.
 ### Output:
 The program will output the path of water flow as a series of points or coordinates.
 
+![01](https://github.com/suraj-soni-04/WaterFlow-Assignment/assets/154866411/fc1f1d3a-ee92-4fe2-aed0-b10e7e9369dc)
+
+![02](https://github.com/suraj-soni-04/WaterFlow-Assignment/assets/154866411/193d8cf0-8855-468f-83e0-57e6408e8301)
+
+![03](https://github.com/suraj-soni-04/WaterFlow-Assignment/assets/154866411/59daa482-26ca-47af-ae79-93a23c269c75)
+
+
+
+
+
 ### File Structure : 
 This repository contains multiple C++ files for a water flow simulation project, including a path finding algorithm, utility classes, OpenGL visualization, and file reading functionality. Below is a brief summary of each file:
 
